@@ -8,6 +8,7 @@ module.exports = {
   siteMetadata: {
     siteTitle: `Jonas Weckschmied`,
     siteTitleAlt: `Jonas Weckschmied - Blog`,
+    siteUrl: `https://jweckschmied.de`
   },
   plugins: [
     {
@@ -26,12 +27,8 @@ module.exports = {
         ],
         externalLinks: [
           {
-            name: `Twitter`,
-            url: `https://twitter.com/lekoarts_de`,
-          },
-          {
-            name: `Instagram`,
-            url: `https://www.instagram.com/lekoarts.de/`,
+            name: `YouTube`,
+            url: `https://www.youtube.com/c/JonasWeckschmied`,
           },
         ],
       },
@@ -43,7 +40,6 @@ module.exports = {
       },
     },
     `gatsby-plugin-sitemap`,
-    `gatsby-plugin-preact`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
